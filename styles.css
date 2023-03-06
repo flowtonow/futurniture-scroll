@@ -1,0 +1,429 @@
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Oswald;
+   
+    letter-spacing: 0.3px;
+    font-size: 2.1rem;
+    margin: 10px;
+
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo {
+    margin-top: 50px;
+    width: 600px;
+}
+
+
+.logo-text-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-text {
+    margin-top: 5px;
+    font-weight: 200;
+    font-size: 2.3rem;
+}
+
+.solid {
+    margin-top: 2rem;
+    width: 60%;
+    border: 0;
+    border-top: 1px solid black;
+}
+
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+
+}
+
+.navigation-item {
+    font-size: 2.1rem; 
+    font-weight: 200;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+.navigation-item-active {
+    font-size: 21px;
+    font-weight: 200;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: orange;
+    list-style: none;
+}
+
+.navigation-item:hover {
+    background-color: rgb(255, 226, 180);
+    cursor: pointer;
+}
+
+.navigation-item-active:hover {
+    background-color: rgb(255, 226, 180);
+    cursor: pointer;
+}
+
+.top-button {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: orange;
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    text-align: center;
+}
+
+.top {
+    color: rgb(0, 0, 0);
+    width: 6rem;
+
+
+
+}
+
+.top-button:hover {
+    opacity: 0.4;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+.headings-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1 {
+    font-weight: 200;
+    font-size: 4.3rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.h2 {
+    font-weight: 200;
+    font-size: 2.4rem;
+    text-align: center;  
+}
+
+.pracovni-nastroje {
+    width: 80%;
+    padding-top: 3rem;
+    transition: opacity 0.3s;
+    margin: auto;
+    display: block;
+}
+
+
+
+
+
+.orange {
+    background-color:rgb(255, 226, 180);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin-top: 4rem;
+}
+
+.sluzba-container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.sluzba {
+    display: inline-block;
+    width: 300px;
+}
+
+.sluzba-foto-container {
+    display: flex;
+    justify-content: center;
+}
+
+.sluzba-foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+   
+}
+
+.sluzba-content-heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.sluzba-content {
+    display: flex;
+    text-align: center;
+    font-weight: 200;
+
+}
+
+
+
+
+
+
+
+.galerie-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center;
+}
+
+.galerie-column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.galerie-column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+
+
+
+.pribeh-container {
+    display: flex;
+    justify-content: center;
+}
+
+.pribeh-right-container {
+    margin: 3rem;
+    padding-left: 4rem;
+    max-width: 600px;
+    text-align: right;
+}
+
+.kristyna {
+    margin: 3rem;
+    width: 100%;
+    height: auto;
+}
+
+.story {
+    font-weight: 200;
+    padding-bottom: 2rem;
+    font-size: ;
+}
+
+
+
+
+
+.kontakt-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    margin-bottom: 3rem;
+}
+
+.kontakt-text-heading {
+    margin-bottom: 2rem;
+}
+
+.kontakt-text {
+    font-weight: 200;
+}
+
+.social-container {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.social-icon {
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
+}
+
+.social-icon-fler {
+    height: 5rem;
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 226, 180);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.footer-top {
+    font-size: 2.4rem;
+    font-weight: 200;
+}
+
+.footer-bottom {
+    font-size: 1.6rem;
+    font-weight: 200;
+}
+
+
+
+@media screen and (max-width: 680px) {
+    .h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .h2 {
+        text-align: center;
+    }
+
+    .pracovni-nastroje {
+        width: 95%;
+    }
+
+    .logo {
+        width: 450px;
+    }
+    
+    .solid {
+        width: 80%;
+    }
+    .navigation-item, .navigation-item-active {
+        padding: 10px;
+        margin: 0;
+    }
+
+    .navigation:active {
+        display: flex;
+    }
+
+    .galerie-column {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .navigation {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navigation-item, .navigation-item-active {
+        padding: 10px;
+        margin: 0;
+    }
+
+    .sluzba-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        vertical-align: middle;
+    }
+
+    .sluzba-content {
+        font-size: 2rem;
+        padding-bottom: 1.8rem;
+    }
+
+    .pribeh-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pribeh-right-container {
+        padding: 0;
+
+    }
+
+    .story {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    .kristyna {
+        width: 90%;
+        margin: 0;
+        margin-left: 5%;
+        
+    }
+
+    .orange, .white {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .top-button {
+        position: fixed;
+        right: 6rem;
+        bottom: 6rem;
+
+    }
+
+}
