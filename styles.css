@@ -292,8 +292,8 @@ a:hover {
 
 .social-container {
     display: flex;
-    width: 300px;
-    justify-content: space-between;
+    width: 150px;
+    justify-content: center;
     align-items: center;
     vertical-align: middle;
     margin: auto;
