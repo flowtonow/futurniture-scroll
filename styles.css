@@ -98,9 +98,7 @@ body {
 .top {
     color: rgb(0, 0, 0);
     width: 6rem;
-
-
-
+    font-weight: 200;
 }
 
 .top-button:hover {
@@ -171,10 +169,15 @@ a:hover {
 
 
 .orange {
-    background-color:rgb(255, 226, 180);
-    padding-top: 6rem;
+    background-color:rgb(226, 226, 226);
+    padding-top: 3rem;
     padding-bottom: 6rem;
     margin-top: 4rem;
+    margin-bottom: 8rem;
+}
+
+.white {
+    margin-bottom: 8rem;
 }
 
 .sluzba-container {
@@ -318,7 +321,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(255, 226, 180);
+    background-color: rgb(226, 226, 226);
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
@@ -421,8 +424,16 @@ a:hover {
 
     .top-button {
         position: fixed;
-        right: 6rem;
-        bottom: 6rem;
+        left: 3rem;
+        bottom: 3rem;
+        width: 4rem;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .top {
+        font-size: 1.3rem;
 
     }
 
